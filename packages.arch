@@ -1,0 +1,85 @@
+packages=(
+    
+    
+    # === hyprland ecosystem ===
+    hyprland
+    hyprpaper
+    hyprshot
+    hyprpicker
+    hyprlauncher
+    hypridle
+    hyprlock
+    hyprsunset
+    hyprpolkitagent
+    hyprland-qt-support
+    hyprtoolkit
+    hyprcursor
+    hyprutils
+    hyprlang
+    hyprgraphics
+    hyprland-qtutils
+    hyprwayland-scanner
+    aquamarine
+    xdg-desktop-portal-hyprland
+    
+    
+    # === hyprland support tools ===
+    sddm
+    wofi
+    waybar
+    # eww
+    # wlogout
+    kitty
+    picom
+    blueman
+    networkmanager
+    brightnessctl
+    pavucontrol
+    wl-clipboard
+    wf-recorder
+    grim slurp
+    swaync
+    ttf-roboto
+    ttf-font-awesome
+    otf-font-awesome
+    ttf-cascadia-code-nerd
+    awesome-terminal-fonts
+    power-profiles-daemon
+    
+    
+    # === command line tools ===
+	exa
+	axel
+	fastfetch
+	htop
+	gtop
+	trash-cli
+	fish
+	zsh
+	vim
+	vim-jedi
+	git
+	tree
+	man
+	zip
+	unzip
+	
+	
+	# === gui tools for the user ===
+	mpv
+	cheese
+	# vscode
+	nautilus
+	simplenote
+	kolourpaint
+	gwenview
+	rhythmbox
+	thunderbird
+	firefox
+	gnome-clocks
+	gnome-calendar
+	gnome-calculator
+	gnome-sound-recorder
+    
+    
+)

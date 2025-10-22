@@ -1,0 +1,61 @@
+call plug#begin('~/.vim/plugged')
+
+"Plug 'tomasr/molokai'
+"Plug 'sickill/vim-monokai'
+Plug 'ghifarit53/tokyonight-vim'
+
+Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
+
+"Plug 'kris2k/vim-surround'
+"Plug 'jiangmiao/auto-pairs'
+
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
+"Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+Plug 'preservim/nerdtree'
+
+"Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
+
+""" SETTINGS '''
+syntax enable
+set cursorline
+"theme
+let g:tokyonight_transparent_background=1
+let g:tokyonight_style='night'
+colorscheme tokyonight
+"airline
+let g:airline_theme='tokyonight'
+let g:airline#extensions#tabline#enabled=0
+let g:airline#extensions#tabline#left_alt_sep='|'
+let g:airline#extensions#tabline#formatter='unique_tail'
+"autopairs
+let g:AutoPairsFlyMode=0
+let g:AutoPairsShortcutBackInsert='<M-b>'
+"ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"fzf
+nnoremap <A-b> :FZF<CR>
+"nerdtree
+nnoremap <A-t> :NERDTreeToggle<CR>
+
+
+
+
+
+""" SHORTCUT '''
+"nmap : normal
+"imap : insert
+"vmap : visual
+"nnoremap : normal (no remap)
+"inoremap : insert (no remap)
+"vnoremap : visual (no remap)
+"map : semua mode

@@ -6,7 +6,7 @@ packages=(
 	hyprpaper
 	hyprshot
 	hyprpicker
-	hyprlauncher
+	# hyprlauncher
 	hypridle
 	hyprlock
 	hyprsunset

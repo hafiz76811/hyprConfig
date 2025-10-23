@@ -51,7 +51,7 @@ let g:NERDTreeQuitOnOpen=1
 nnoremap <C-t> :NERDTreeToggle<CR>
 "buffer
 nnoremap <C-n> :bnext<CR>
-nnoremap <C-M> :bNext<CR>
+nnoremap <C-m> :bprevious<CR>
 
 
 

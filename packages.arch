@@ -5,6 +5,7 @@ packages=(
 	hyprland
 	hyprpaper
 	hyprshot
+	# hyprshit
 	hyprpicker
 	hyprlauncher
 	hypridle

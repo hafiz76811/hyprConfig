@@ -50,8 +50,8 @@ nnoremap <C-b> :FZF<CR>
 let g:NERDTreeQuitOnOpen=1
 nnoremap <C-t> :NERDTreeToggle<CR>
 "buffer
-nnoremap <C-n> :bnext<CR>
-nnoremap <C-m> :bprevious<CR>
+nnoremap <C-n> :bnext!<CR>
+nnoremap <C-m> :bprevious!<CR>
 
 
 

@@ -20,6 +20,8 @@ Plug 'preservim/nerdtree'
 
 "Plug 'tpope/vim-fugitive'
 
+Plug 'tpope/vim-commentary'
+
 call plug#end()
 
 

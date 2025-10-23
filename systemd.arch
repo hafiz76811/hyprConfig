@@ -1,19 +1,21 @@
-systemd=(
-    
-    
-    # === systemd enable ===
-    enable NetworkManager
-    enable dbus
-    enable sddm
-    enable power-profiles-daemon
-    enable bluetooth
-    enable pipewire
-    enable xdg-desktop-portal
-    
-    
-    # === systemd disable ===
-    disable systemd-networkd
-    disable iwd
-    
-    
+systemd_enable=(
+
+	# === systemd enable ===
+	NetworkManager
+	dbus
+	sddm
+	power-profiles-daemon
+	bluetooth
+	pipewire
+	xdg-desktop-portal
+
+)
+
+
+systemd_disable=(
+
+	# === systemd disable ===
+    	systemd-networkd
+    	iwd
+
 )

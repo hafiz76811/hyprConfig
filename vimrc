@@ -34,7 +34,7 @@ let g:tokyonight_style='night'
 colorscheme tokyonight
 "airline
 let g:airline_theme='tokyonight'
-let g:airline#extensions#tabline#enabled=0
+let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#left_alt_sep='|'
 let g:airline#extensions#tabline#formatter='unique_tail'
 "autopairs
@@ -45,10 +45,13 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "fzf
-nnoremap <A-b> :FZF<CR>
+nnoremap <C-b> :FZF<CR>
 "nerdtree
 let g:NERDTreeQuitOnOpen=1
-nnoremap <A-t> :NERDTreeToggle<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+"buffer
+nnoremap <C-n> :bnext<CR>
+nnoremap <C-M> :bNext<CR>
 
 
 

@@ -47,6 +47,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "fzf
 nnoremap <A-b> :FZF<CR>
 "nerdtree
+let g:NERDTreeQuitOnOpen=1
 nnoremap <A-t> :NERDTreeToggle<CR>
 
 

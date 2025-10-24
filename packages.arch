@@ -6,7 +6,6 @@ packages=(
 	hyprpaper
 	hyprshot
 	hyprpicker
-	# hyprlauncher
 	hypridle
 	hyprlock
 	hyprsunset
@@ -33,6 +32,8 @@ packages=(
 	picom
 	blueman
 	networkmanager
+	network-manager-applet
+	nm-connection-editor
 	brightnessctl
 	pavucontrol
 	wl-clipboard
@@ -68,7 +69,6 @@ packages=(
 	# === gui tools for the user ===
 	mpv
 	cheese
-	# vscode
 	nautilus
 	simplenote
 	kolourpaint

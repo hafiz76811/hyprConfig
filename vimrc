@@ -28,6 +28,9 @@ call plug#end()
 """ SETTINGS '''
 syntax enable
 set cursorline
+set number
+set relativenumber
+set incsearch
 "theme
 let g:tokyonight_transparent_background=1
 let g:tokyonight_style='night'
@@ -45,13 +48,13 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "fzf
-nnoremap <C-b> :FZF<CR>
+nnoremap <A-b> :FZF<CR>
 "nerdtree
 let g:NERDTreeQuitOnOpen=1
-nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <A-t> :NERDTreeToggle<CR>
 "buffer
-nnoremap <C-n> :bnext!<CR>
-nnoremap <C-m> :bprevious!<CR>
+nnoremap <A-n> :bnext!<CR>
+nnoremap <A-m> :bprevious!<CR>
 
 
 

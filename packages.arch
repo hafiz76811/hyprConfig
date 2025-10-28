@@ -58,6 +58,7 @@ packages=(
 	fish
 	zsh
 	vim
+	neovim
 	vim-jedi
 	git
 	tree

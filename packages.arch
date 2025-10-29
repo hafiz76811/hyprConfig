@@ -35,6 +35,7 @@ packages=(
 	network-manager-applet
 	nm-connection-editor
 	brightnessctl
+	playerctl
 	pavucontrol
 	wl-clipboard
 	wf-recorder

@@ -20,6 +20,22 @@ packages=(
 	hyprwayland-scanner
 	aquamarine
 	xdg-desktop-portal-hyprland
+	
+	
+	# === sway ecosystem ===
+	sway
+	swaync
+	swaybg
+	swayimg
+	swayidle
+	swaylock
+	swaykbdd
+	swaysome
+	sway-backgrounds
+	sway-tools
+	wlroots
+	waypipe
+	xdg-desktop-portal-wlr
 
 
 	# === hyprland support tools ===

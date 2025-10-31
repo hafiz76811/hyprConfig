@@ -71,7 +71,6 @@ packages=(
 	htop
 	gtop
 	trash-cli
-	fish
 	zsh
 	vim
 	neovim
@@ -86,7 +85,7 @@ packages=(
 	# === gui tools for the user ===
 	mpv
 	cheese
-	nautilus
+	dolphin
 	simplenote
 	kolourpaint
 	gwenview

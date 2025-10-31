@@ -56,7 +56,6 @@ packages=(
 	wl-clipboard
 	wf-recorder
 	grim slurp
-	swaync
 	ttf-roboto
 	ttf-font-awesome
 	otf-font-awesome

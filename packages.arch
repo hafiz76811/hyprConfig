@@ -22,27 +22,6 @@ packages=(
 	xdg-desktop-portal-hyprland
 	
 	
-	# === sway ecosystem ===
-	sway
-	autotiling
-	nwg-bar
-	nwg-displays
-	sway-contrib
-	swaybg
-	swayidle
-	swayimg
-	swaylock
-	# swaylock-effects
-	# swaysome
-	# sway-backgrounds
-	# sway-tools
-	# wlroots
-	# waypipe
-	# xdg-desktop-portal-wlr
-	swaync
-	swayosd
-
-
 	# === hyprland support tools ===
 	sddm
 	wofi

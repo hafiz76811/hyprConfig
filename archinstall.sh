@@ -8,5 +8,3 @@ for pkg in ${packages[@]}; do
 	sudo pacman -S $pkg --needed --noconfirm
 done;
 
-
-
